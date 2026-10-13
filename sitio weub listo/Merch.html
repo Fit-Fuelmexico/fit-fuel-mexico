@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Merch</title>
+ 
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0e4936;
+}
+ 
+/* NAVBAR */
+.navbar {
+    background-color: #0e4936;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.navbar h2 { margin: 0; }
+ 
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+ 
+.nav-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+/* HERO */
+.hero {
+    background: url("Productos/Merch/Productos_Juntos.jpg") center/cover;
+    
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+ 
+.hero h1 {
+    font-size: 40px;
+    background: rgba(5, 5, 5, 0.5);
+    padding: 10px;
+}
+ 
+/* CONTENEDOR */
+.container {
+    padding: 50px;
+}
+ 
+/* CARDS */
+.card {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+.card {
+    background: rgb(255, 248, 248);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+ 
+.card:hover {
+    transform: scale(1.03);
+}
+ 
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+ 
+.card-content {
+    padding: 15px;
+}
+ 
+.price {
+    color: #ffffff;
+    font-weight: bold;
+}
+ 
+/* BOTONES */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #27ae60;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+ 
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+ 
+/* FOOTER */
+.footer {
+    background: #2c3e50;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+</style>
+</head>
+</head>
+ 
+<body>
+ 
+<!-- NAV -->
+<nav class="navbar">
+<h2> Merch | Fit-Fuel</h2>
+<ul class="nav-links">
+<li><a href="index.html">Inicio</a></li>
+<li><a href="Musc+.html">Musc+</a></li>
+<li><a href="Ligth.html">Ligth</a></li>
+<li><a href="Plus_Energy.html">Plus Energy</a></li>
+<li><a href="Contacto.html">Contacto</a></li>
+ 
+ 
+</ul>
+</nav>
+ 
+<!-- HERO -->
+<section class="hero">
+<h1> Merch </h1>
+</section>
+ 
+<div class="container">
+ 
+    <h2></h2>
+ 
+    <div class="grid">
+      <div class="card">
+       <div class="card-content">
+        <img src="Productos/Merch/Productos_Playeras.jpg">
+        <h3>Playeras </h3>
+        <p>Playera transpirable Fit-Fuel, ideal para hacer ejercicio.</p>
+        <a href="Contacto.html" class="btn">Pedir</a>
+       </div>
+      </div>
+
+        <div class="card">
+            <img src="Productos/Merch/Producto_Gorra.jpg">
+            <div class="card-content">
+                <h3>Gorras</h3>
+                <p>Gorra para hacer ejercicio.</p>
+                <a href="Contacto.html" class="btn">Pedir</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="Productos/Merch/Producto_Mochila.jpg">
+            <div class="card-content">
+                <h3>Mochilas</h3>
+                <p>Mochila Fit-fuel, ideal para cargar tus cosas.</p>
+                <a href="Contacto.html" class="btn">Pedir</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="card-content">
+                <img src="Productos/Merch/Productos_Pants.jpg">
+                <h3>Pants</h3>
+                <p>Pants Fit-Fuel, ideal para hacer ejercicio en epoca de invierno.</p>
+                <a href="Contacto.html" class="btn">Pedir</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="card-content">
+                <img src="Productos/Merch/Termos_Transparentes.jpg">
+                <h3>Termo mezclador trasnparente</h3>
+                <p>Termo mezclador Fit-Fuel, idel para llevar tus bebids a tus entrenamientos.</p>
+                <a href="Contacto.html" class="btn">Pedir</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- FOOTER -->
+
+<div class="footer">
+
+<p>📍  Álvaro Obregon,Ciudad de México | WhatssApp 📞 +52 56-47-64-96-84 | Instagram:fit.fuelmexico | </p>
+    <p>© 2026 Fit-Funes. S.A.D.C.V <D class="C V"></D></p>
+</div>
+</body>
+</html>
